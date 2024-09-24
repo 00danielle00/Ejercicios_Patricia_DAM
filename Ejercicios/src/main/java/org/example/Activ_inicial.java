@@ -20,10 +20,14 @@ public class Activ_inicial {
         System.out.println("introduce otro numero");
         int num2 = entrada.nextInt();
 
-        int resultado = num1 + num2;
+        if (num1 == 0 || num2 == 0) {
+            System.out.println("un sumando no puede ser 0.");
 
-        System.out.println("El resultado de la suma es: " + resultado);
+        }else{
+            int resultado = num1 + num2;
+            System.out.println("El resultado de la suma es: " + resultado);
+        }
+
     }
-
 
 }
