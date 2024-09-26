@@ -8,15 +8,17 @@ public class Main {
 
         //Activ_inicial activ_inicial = new Activ_inicial();
         //activ_inicial.ejecutar();
-        // Ejercicio1 ejercicio1 = new Ejercicio1();
+        //Ejercicio1 ejercicio1 = new Ejercicio1();
         //ejercicio1.ejecutar();
 
-        Operadores operadores = new Operadores();
+       // Operadores operadores = new Operadores();
        // operadores.operadores();
        // operadores.asignacion();
        // operadores.comparacion();
 
-        operadores.logicos();
+        //operadores.logicos();
+        Ejercicio3 ejercicio3 = new Ejercicio3();
+        ejercicio3.ejercicio3();
 
     }
 }
