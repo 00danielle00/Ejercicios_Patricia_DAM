@@ -3,6 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Practica4 {
+
     public void practica4() {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce el multiplicador (3 cifras):");
@@ -25,9 +26,7 @@ public class Practica4 {
         int resultado2 = num_1*num2;
         int resultado3 = num_2* num2;
         int resultado4 = num_3* num2;
-
-
-
+        
         System.out.println("El producto de la multiplicación es: " + resultado);
         System.out.println("El proceso es:");
         System.out.println( "  " +num1 );
