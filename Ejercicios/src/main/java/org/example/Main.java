@@ -11,10 +11,10 @@ public class Main {
         //Ejercicio1 ejercicio1 = new Ejercicio1();
         //ejercicio1.ejecutar();
 
-       // Operadores operadores = new Operadores();
-       // operadores.operadores();
-       // operadores.asignacion();
-       // operadores.comparacion();
+        // Operadores operadores = new Operadores();
+        // operadores.operadores();
+        // operadores.asignacion();
+        // operadores.comparacion();
 
         //operadores.logicos();
         //Ejercicio3 ejercicio3 = new Ejercicio3();
@@ -23,4 +23,5 @@ public class Main {
         practica3.practica3();
 
     }
+
 }
