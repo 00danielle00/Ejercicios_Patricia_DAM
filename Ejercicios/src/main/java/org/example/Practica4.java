@@ -1,19 +1,31 @@
 package org.example;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Practica4 {
 
     public void practica4() {
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Introduce el multiplicador (3 cifras):");
-        int num1 = entrada.nextInt();
 
-        System.out.println("Introduce el multiplicador (3 cifras):");
-        int num2 = entrada.nextInt();
+        int num1= 0;
+        int num2 = 0;
 
-        int resultado = num1*num2;
 
+        while (num2 == 0 && num1 == 0){
+            System.out.println("Introduce el multiplicador (3 cifras):");
+            num1 = entrada.nextInt();
+            System.out.println("Introduce el multiplicador (3 cifras):");
+            num2 = entrada.nextInt();
+            try {
+                if (num2 == 0 && num1 == 0) {
+                    System.out.println("Error, el numero no puede ser cero ");
+                }
+            }catch (InputMismatchException error){
+                System.out.println("Error, introduce un numero.");
+                entrada.next();
+            }
+        }
         String numC = Integer.toString(num1); //convertimos el número a carácter
         String numC_1 = numC.substring(2,3); //cogemos la primera cifra (desde posión 0 hasta 1)
         String numC_2 = numC.substring(1,2);
@@ -23,9 +35,11 @@ public class Practica4 {
         int num_2 = Integer.parseInt(numC_2);
         int num_3 = Integer.parseInt(numC_3);
 
-        int resultado2 = num_1*num2;
-        int resultado3 = num_2* num2;
-        int resultado4 = num_3* num2;
+        int resultado = num1 * num2;
+        int resultado2 = num_1 * num2;
+        int resultado3 = num_2 * num2;
+        int resultado4 = num_3 * num2;
+
         
         System.out.println("El producto de la multiplicación es: " + resultado);
         System.out.println("El proceso es:");
