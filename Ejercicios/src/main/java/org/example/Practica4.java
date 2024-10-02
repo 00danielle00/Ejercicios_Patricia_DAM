@@ -12,14 +12,14 @@ public class Practica4 {
         int num2 = 0;
 
 
-        while (num2 == 0 && num1 == 0){
+        while (num1 == 0 && num2 == 0){
 
             try {
                 System.out.println("Introduce el multiplicador (3 cifras):");
                 num1 = entrada.nextInt();
                 System.out.println("Introduce el multiplicador (3 cifras):");
                 num2 = entrada.nextInt();
-                if (num2 == 0 && num1 == 0) {
+                if (num1== 0 && num2 == 0) {
                     System.out.println("Error, el numero no puede ser cero ");
                 }
             }catch (InputMismatchException error){

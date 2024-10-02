@@ -21,8 +21,12 @@ public class Main {
         //ejercicio3.ejercicio3();
         //Practica3 practica3 = new Practica3();
        //practica3.practica3();
-        Practica4 practica4 = new Practica4();
-        practica4.practica4();
+        //Ejercicio3 ejercicio3 = new Ejercicio3();
+       // ejercicio3.ejercicio3();
+        //Practica4 practica4 = new Practica4();
+        //practica4.practica4();
+        Ejercicio5 ejercicio5 = new Ejercicio5();
+        ejercicio5.ejercicio5();
 
     }
 
