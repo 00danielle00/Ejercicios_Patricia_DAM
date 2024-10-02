@@ -25,6 +25,7 @@ public class Practica4 {
                 System.out.println("Error, introduce un numero.");
                 entrada.next();
             }
+            
         }
         String numC = Integer.toString(num1); //convertimos el número a carácter
         String numC_1 = numC.substring(2,3); //cogemos la primera cifra (desde posión 0 hasta 1)
