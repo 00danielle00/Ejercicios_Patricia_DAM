@@ -10,8 +10,10 @@ public class Main {
       //  Ejercicio5 ejercicio5 = new Ejercicio5();
        // ejercicio5.ejercicio5();
 
-        Repaso repaso = new Repaso();
-        repaso.repaso();
+       // Repaso repaso = new Repaso();
+        //repaso.repaso();
+        Ejercicio4 ejercicio4 = new Ejercicio4();
+        ejercicio4.ejercicio4();
 
     }
 

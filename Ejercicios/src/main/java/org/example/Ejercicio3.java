@@ -17,13 +17,16 @@ public class Ejercicio3 {
                 System.out.println("dime otro numero");
                 num2 = entrada.nextInt();
 
-                if (num1 == 0 && num2 == 0) {
+                if (num2 == 0) {
                 System.out.println("Error, el divisor no puede ser cero");
-            }
-                else {
+                System.out.println("Introduce un numeo valido");
+                num2 = entrada.nextInt();
+                }
+
                     int resultado = num1 / num2;
                     System.out.println("El resultado es " + resultado);
-                }
-             }
+
+
+            }
         }
     }
