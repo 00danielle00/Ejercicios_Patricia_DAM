@@ -18,6 +18,9 @@ public class Main {
         //CosasString caracteres = new CosasString();
         //caracteres.caracteres();
 
+        Tema2Ejercicio1 ejercicio1 = new Tema2Ejercicio1();
+        ejercicio1.ejercicio1();
+
     }
 
 }

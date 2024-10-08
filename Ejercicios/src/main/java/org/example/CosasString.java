@@ -37,7 +37,7 @@ public class CosasString {
         nombre = nombre.trim();
         System.out.println("Mi nombre quitando espacios es " +nombre+ ".");
 
-        String sinespacios = frase.replace( "  ", "");
+        String sinespacios = frase.replace( " ", "");
         System.out.println("Mi frase sin espacios es " + sinespacios);
 
         String reemplazar = frase.replace("chao", "hola");
