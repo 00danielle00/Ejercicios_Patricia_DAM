@@ -12,8 +12,11 @@ public class Main {
 
        // Repaso repaso = new Repaso();
         //repaso.repaso();
-        Ejercicio4 ejercicio4 = new Ejercicio4();
-        ejercicio4.ejercicio4();
+        //Ejercicio4 ejercicio4 = new Ejercicio4();
+        //ejercicio4.ejercicio4();
+
+        //CosasString caracteres = new CosasString();
+        //caracteres.caracteres();
 
     }
 
