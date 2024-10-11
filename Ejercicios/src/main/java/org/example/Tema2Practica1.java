@@ -12,7 +12,7 @@ public class Tema2Practica1 {
         System.out.println("Introduce tu fecha de nacimiento "+ " (dd/mm/aaaa): ");
 
         String fecha = entrada.next();
-        
+
         String num1 = fecha.substring(0,2);// cojo el rango de numeros que quiero sumar
         String num2 = fecha.substring(3,5);
         String num3 = fecha.substring(6,10);
@@ -40,7 +40,11 @@ public class Tema2Practica1 {
         System.out.println( anyo1 +  "+" + anyo2 + "+" +anyo3+ "+" + anyo4 +" = "+ totalanyo);
         System.out.println("Tu numero de la suerte es " + totalanyo);
 
+        //hacer que n funcione con numeros negativos
+        
+        //hacer que no funcione intorduciendo 0s
 
+        // establecer el / como patron
 
 
     }
