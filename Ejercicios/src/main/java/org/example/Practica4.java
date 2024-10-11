@@ -29,7 +29,7 @@ public class Practica4 {
             
         }
         String numC = Integer.toString(num1); //convertimos el número a carácter
-        String numC_1 = numC.substring(2,3); //cogemos la primera cifra (desde posión 0 hasta 1)
+        String numC_1 = numC.substring(2,3);
         String numC_2 = numC.substring(1,2);
         String numC_3 = numC.substring(0,1);
 
