@@ -41,9 +41,7 @@ public class Tema2Practica1 {
         System.out.println("Tu numero de la suerte es " + totalanyo);
 
         //hacer que n funcione con numeros negativos
-        
         //hacer que no funcione intorduciendo 0s
-
         // establecer el / como patron
 
 
