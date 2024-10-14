@@ -17,10 +17,21 @@ public class Tema2Practica1 {
         String num2 = fecha.substring(3,5);
         String num3 = fecha.substring(6,10);
 
-        int num_1 = Integer.parseInt(num1); // lo paso a numero entero para poder sumarlo
+        int num_1 = Integer.parseInt(num1);// lo paso a numero entero para poder sumarlo
+        if (num_1 <= 0 || num_1 > 31) {
+            System.out.println("Día inválido. Debe estar entre 1 y 31.");
+            return;
+        }
         int num_2 = Integer.parseInt(num2);
+        if (num_2 <= 0 || num_2 > 12) {
+            System.out.println("Mes inválido. Debe estar entre 1 y 12.");
+            return;
+        }
         int num_3 = Integer.parseInt(num3);
-
+        if (num_3 <= 0) {
+            System.out.println("Año inválido. No puede ser negativo o cero.");
+            return;
+        }
         int total = num_1 + num_2 + num_3; //Realizo la operación
 
         System.out.println(num_1 + "+" + num_2 + "+"+ num_3+ "="+ total   );
@@ -41,6 +52,11 @@ public class Tema2Practica1 {
         System.out.println("Tu numero de la suerte es " + totalanyo);
 
         //hacer que n funcione con numeros negativos
+
+        if (num_3 <= 0) {
+            System.out.println("Año inválido. No puede ser negativo o cero.");
+            return;
+        }
         //hacer que no funcione intorduciendo 0s
         // establecer el / como patron
 
