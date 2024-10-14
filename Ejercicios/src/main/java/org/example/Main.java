@@ -21,11 +21,11 @@ public class Main {
         //Tema2Ejercicio5 ejercicio5 = new Tema2Ejercicio5();
         //ejercicio5.ejercicio5();
 
-//        Tema2Practica1 practica1 = new Tema2Practica1();
-//        practica1.practica1();
+        Tema2Practica1 practica1 = new Tema2Practica1();
+        practica1.practica1();
 
-        Excepciones excepciones = new Excepciones();
-        excepciones.excepciones();
+//        Excepciones excepciones = new Excepciones();
+//        excepciones.excepciones();
     }
 
 }
