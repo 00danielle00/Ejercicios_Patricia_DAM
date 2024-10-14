@@ -51,15 +51,6 @@ public class Tema2Practica1 {
         System.out.println( anyo1 +  "+" + anyo2 + "+" +anyo3+ "+" + anyo4 +" = "+ totalanyo);
         System.out.println("Tu numero de la suerte es " + totalanyo);
 
-        //hacer que n funcione con numeros negativos
-
-        if (num_3 <= 0) {
-            System.out.println("Año inválido. No puede ser negativo o cero.");
-            return;
-        }
-        //hacer que no funcione intorduciendo 0s
         // establecer el / como patron
-
-
     }
 }
