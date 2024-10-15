@@ -8,7 +8,6 @@ public class Excepciones {
 
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce dividendo: ");
-
         String numero = teclado.next();
         System.out.println("Introduce divisor: ");
         int dividendo =0;
