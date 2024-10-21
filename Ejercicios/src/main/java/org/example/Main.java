@@ -30,8 +30,7 @@ public class Main {
 //        Calculadora calculadora = new Calculadora();
 //        calculadora.calculadora();
 
-        Contrasenya Ejercicio7 = new Contrasenya();
-        Ejercicio7.Ejercicio7();
-    }
+        Contrasenya Ejercicio8 = new Contrasenya();
+        Ejercicio8.Ejercicio8();
+    }}
 
-}

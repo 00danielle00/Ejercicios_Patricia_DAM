@@ -101,4 +101,17 @@ System.out.println("El resultado es " + sumatotal);
         }
         System.out.println( "El factorial es "+  factorial);
     }
+    public void Ejercicio8(){
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Dime una cadena :");
+
+        String cadena = entrada.next();
+
+        for (int i = cadena.length(); i <= 0; i++){
+            System.out.println(cadena.charAt(i));
+        }
+
+    }
 }
