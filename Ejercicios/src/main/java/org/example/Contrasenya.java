@@ -90,7 +90,6 @@ public class Contrasenya {
         }
 System.out.println("El resultado es " + sumatotal);
     }
-
     public void Ejercicio7(){
         Scanner teclado = new Scanner(System.in);
         System.out.println("Dime un numero ");
