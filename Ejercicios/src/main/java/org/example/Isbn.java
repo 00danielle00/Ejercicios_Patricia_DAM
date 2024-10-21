@@ -25,11 +25,10 @@ public class Isbn {
         for (int i=0; i<=10;i++){
 
             char isbnn = isbn.charAt(i);
-            
 
+            if (){
 
-
+            }
         }
-
     }
 }
