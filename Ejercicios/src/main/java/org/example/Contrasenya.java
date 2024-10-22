@@ -109,9 +109,11 @@ System.out.println("El resultado es " + sumatotal);
 
         String cadena = entrada.next();
 
-        for (int i = cadena.length(); i <= 0; i++){
-            System.out.println(cadena.charAt(i));
-        }
+        String cadenainvertida = " ";
 
+        for (int i = cadena.length() -1; i >= 0; i--){
+          cadenainvertida+= cadena.charAt(i);
+        }
+    System.out.println("la cadena invertida es " + cadenainvertida);
     }
 }
