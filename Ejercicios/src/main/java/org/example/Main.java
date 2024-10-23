@@ -55,7 +55,10 @@ public class Main {
 //           Random aleatorio =new Random();
 //           int dado1= aleatorio.nextInt();
 
-        Ejerciciorandom ejercicio3 = new Ejerciciorandom();
-        ejercicio3.ejercicio3();
+//        Ejerciciorandom ejercicio3 = new Ejerciciorandom();
+//        ejercicio3.ejercicio3();
+
+        Isbn practica3 = new Isbn();
+        practica3.practica3();
     }}
 
