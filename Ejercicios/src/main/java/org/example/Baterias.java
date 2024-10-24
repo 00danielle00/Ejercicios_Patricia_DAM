@@ -12,7 +12,6 @@ public class Baterias {
 
         int numero = teclado.nextInt();
 
-        if (numero )
 
 
 

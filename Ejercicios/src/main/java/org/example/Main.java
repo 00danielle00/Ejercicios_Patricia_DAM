@@ -26,11 +26,9 @@ public class Main {
 //        numero2=Math.random()*6+1;
 //        System.out.println(numero2);
 
-//           Random aleatorio =new Random();
-//           int dado1= aleatorio.nextInt();
 
-Ejerciciorandom ejercicio3 = new Ejerciciorandom();
-ejercicio3.ejercicio3();
+Ejerciciorandom ejercicio4 = new Ejerciciorandom();
+ejercicio4.ejercicio4();
 
     }
 }

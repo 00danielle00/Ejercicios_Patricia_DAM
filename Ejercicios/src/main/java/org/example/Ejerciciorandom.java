@@ -55,12 +55,15 @@ public class Ejerciciorandom {
 
         int max = teclado.nextInt();
 
-        if (min < max) {
-            System.out.println("cuántos numeros quieres");
-            int numero = teclado.nextInt();
+        if (min > max){
+            System.out.println("El primer numero no puede ser menor que el primero");
 
-            for (int i= 0; i < numero; i++){
-                numero = randomm.nextInt(max - min + 1) + min;
+        }else {
+            System.out.println("cuántos numeros quieres");
+            int cantidad = teclado.nextInt();
+
+            for (int i= 0; i < cantidad; i++){
+               int  numero = randomm.nextInt(max - min + 1) + min;
                 System.out.println(numero);
             }
 
@@ -73,7 +76,7 @@ public class Ejerciciorandom {
 
         Random randomm= new Random();
 
-        int longitud_contrasenya = 12;
+        int longitud_contrasenya = randomm.nextInt(3)+6;
 
         int indice;
 
