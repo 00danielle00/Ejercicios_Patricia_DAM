@@ -27,9 +27,11 @@ public class Main {
 //        System.out.println(numero2);
 
 
-Ejerciciorandom ejercicio4 = new Ejerciciorandom();
-ejercicio4.ejercicio4();
+//Ejerciciorandom ejercicio4 = new Ejerciciorandom();
+//ejercicio4.ejercicio4();
 
+        Baterias ejercicio4 = new Baterias();
+        ejercicio4.ejercicio4();
     }
 }
 
