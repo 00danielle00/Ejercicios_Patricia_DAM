@@ -30,8 +30,8 @@ public class Main {
 //Ejerciciorandom ejercicio4 = new Ejerciciorandom();
 //ejercicio4.ejercicio4();
 
-        Baterias ejercicio4 = new Baterias();
-        ejercicio4.ejercicio4();
+        Baterias ejercicio5 = new Baterias();
+        ejercicio5.ejercicio5();
     }
 }
 

@@ -102,4 +102,20 @@ public class Baterias {
 
         }
     }
+    public void ejercicio5(){
+
+        Scanner teclado = new Scanner(System.in);
+        int sueldo =0;
+        int sueldo1=0;
+        for (int i = 0; i < 5; i++){
+
+            System.out.println("dime sueldo: "+ (i+1));
+             sueldo = teclado.nextInt();
+
+//            if (sueldo >= 1000){
+//                sueldo++;
+//            }
+        }
+        System.out.println("Los sueldos mayores que 1000€ son : " +sueldo);
+    }
 }
