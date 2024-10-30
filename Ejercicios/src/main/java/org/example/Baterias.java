@@ -125,4 +125,44 @@ public class Baterias {
         System.out.println("Los sueldos mayores que 1000€ son : " +sueldo);
         System.out.println("El sueldo maximo es : " +sueldomax+ " €");
     }
+    public void ejercicio6(){
+
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Cuantas edades de alumnos vas a introducir :");
+
+        int N = teclado.nextInt();
+
+        int edad = 0;
+        int estatura = 0;
+        int mayores18 =0;
+        int altura175=0;
+
+
+        for (int i=0; i< N; i++){
+
+            System.out.println("Introduce la edad del alumno " + (i+1)+" :");
+            edad = teclado.nextInt();
+            if (edad>=18){
+                mayores18++;
+            }
+
+            System.out.println("Introduce la altura del alumno " + (i+1)+" :");
+            estatura = teclado.nextInt();
+
+            if (estatura >= 175){
+
+                altura175++;
+            }
+        }
+        System.out.println("Alumnos mayores que 18 :" + mayores18);
+        System.out.println("Alumnos altura +175cm :" + altura175);
+
+
+
+
+
+
+
+    }
 }
