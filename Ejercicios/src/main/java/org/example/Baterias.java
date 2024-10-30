@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Baterias {
@@ -158,7 +159,30 @@ public class Baterias {
         System.out.println("Alumnos mayores que 18 :" + mayores18);
         System.out.println("Alumnos altura +175cm :" + altura175);
 
+    }
+    public void ejercicio7(){
+        Scanner teclado = new Scanner(System.in);
+        int secuencia;
 
+        try{
+            System.out.println("Ingrese un numero entero positivo: ");
+            secuencia= teclado.nextInt();
+        }catch (InputMismatchException err){
+            System.out.println("ERROR, el valor introducido no es valido");
+            return;
+        }
+
+
+        int a =0;
+        int b = 1;
+        System.out.println("Secuencia de numeros: "+a);
+        for (int i=1; i<secuencia; i++){
+            System.out.println(" " +b);
+            int resultado =a+b;
+            a=b;
+            b=resultado;
+        }
+        System.out.println();
 
 
 
