@@ -5,14 +5,11 @@ import java.util.Scanner;
 public class Tema2Ejercicio4 {
     public void ejercicio4(){
 
-        Scanner entrada = new Scanner(System.in);
+        String texto = "Hola Mundo, bienvenido a Mundo. Mundo es genial.";
+        String subcadena = "Mundo";
 
-        System.out.println("Introduce un texto: ");
-        String texto = entrada.nextLine();
-
-        System.out.println("Introduce la palabra que quieras quitar: ");
-        String substring = entrada.next();
-
+        int total = (texto.length() - texto.replace(subcadena, "").length()) / subcadena.length();
+        System.out.println(total);
 
 
 
