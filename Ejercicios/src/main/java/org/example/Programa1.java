@@ -71,4 +71,61 @@ public class Programa1 {
             }
         }
     }
+
+    public void Switch() {
+        Scanner entrada = new Scanner(System.in);
+        LocalDateTime hoy = LocalDateTime.now(); // Obtener la fecha actual
+        int anyo_actual = hoy.getYear();
+
+        System.out.println("ELIGE UN MODO:");
+        System.out.println("1. MODO 1");
+        System.out.println("2. MODO 2");
+
+        int modo = entrada.nextInt();
+        int anyo_2 = 1800;
+        boolean error = false;
+
+        switch (modo) {
+            case 1:
+                System.out.println("Introduce un año: ");
+                String anyo = entrada.next();
+                try {
+                    anyo_2 = Integer.parseInt(anyo);
+                } catch (NumberFormatException e) {
+                    System.out.println("Has introducido un formato erróneo.");
+                    error = true;
+                }
+
+                if (anyo_2 < 1900 || anyo_2 > anyo_actual) {
+                    System.out.println("El año introducido no es correcto.");
+                    error = true;
+                }
+                break;
+
+            case 2:
+                if (!error) {
+                    if (anyo_2 >= 1900 && anyo_2 <= 1927) {
+                        System.out.println("Eres de la generación no bautizada.");
+                    } else if (anyo_2 >= 1928 && anyo_2 <= 1945) {
+                        System.out.println("Eres de la generación Silent.");
+                    } else if (anyo_2 >= 1946 && anyo_2 <= 1964) {
+                        System.out.println("Eres de la generación Baby Boomers.");
+                    } else if (anyo_2 >= 1965 && anyo_2 <= 1980) {
+                        System.out.println("Eres de la generación X.");
+                    } else if (anyo_2 >= 1981 && anyo_2 <= 1996) {
+                        System.out.println("Eres de la generación Millennial.");
+                    } else if (anyo_2 >= 1997 && anyo_2 <= 2012) {
+                        System.out.println("Eres de la generación Z.");
+                    } else {
+                        System.out.println("No eres de ninguna generación comúnmente conocida.");
+                    }
+                }
+                break;
+
+            default:
+                System.out.println("Opción no válida.");
+                return;
+        }
+
+    }
 }
