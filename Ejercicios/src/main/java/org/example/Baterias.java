@@ -106,16 +106,23 @@ public class Baterias {
 
         Scanner teclado = new Scanner(System.in);
         int sueldo =0;
-        int sueldo1=0;
+        int sueldo1000=0;
+        int sueldomax = 0;
+
         for (int i = 0; i < 5; i++){
 
-            System.out.println("dime sueldo: "+ (i+1));
+            System.out.println("dime sueldo "+ (i+1)+ " :");
              sueldo = teclado.nextInt();
 
-//            if (sueldo >= 1000){
-//                sueldo++;
-//            }
+            if (sueldo > sueldomax){
+                sueldomax = sueldo;
+            }
+
+            if (sueldo > 1000){
+                sueldo1000++;
+            }
         }
         System.out.println("Los sueldos mayores que 1000€ son : " +sueldo);
+        System.out.println("El sueldo maximo es : " +sueldomax+ " €");
     }
 }
