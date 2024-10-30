@@ -162,18 +162,21 @@ public class Baterias {
     }
     public void ejercicio7(){
         Scanner teclado = new Scanner(System.in);
-        int secuencia;
 
-        try{
-            System.out.println("Ingrese un numero entero positivo: ");
+        int secuencia=0;
+
+        System.out.println("Dime un numero entero: ");
+        secuencia= teclado.nextInt();
+
+        while (secuencia <= 0){
+
+            System.out.println("Error: el numero no puede ser menor o igual a cero");
+            System.out.println("Introduce de nuevo el valor:");
             secuencia= teclado.nextInt();
-        }catch (InputMismatchException err){
-            System.out.println("ERROR, el valor introducido no es valido");
-            return;
         }
 
 
-        int a =0;
+        int a = 0;
         int b = 1;
         System.out.println("Secuencia de numeros: "+a);
         for (int i=1; i<secuencia; i++){
@@ -183,10 +186,5 @@ public class Baterias {
             b=resultado;
         }
         System.out.println();
-
-
-
-
-
     }
 }
