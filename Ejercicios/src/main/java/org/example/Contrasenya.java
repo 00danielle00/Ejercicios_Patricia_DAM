@@ -20,14 +20,6 @@ public class Contrasenya {
             System.out.println("Bienvenido, contraseña correcta");
         }
 
-
-
-
-
-
-
-
-
     }
 
     public void Ejercicio2(){
