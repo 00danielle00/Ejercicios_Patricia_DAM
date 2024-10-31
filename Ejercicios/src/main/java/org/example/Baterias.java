@@ -179,7 +179,7 @@ public class Baterias {
         int a = 0;
         int b = 1;
         System.out.println("Secuencia de numeros: "+a);
-        for (int i=1; i<secuencia; i++){
+        for (int i=0; i<secuencia; i++){
             System.out.println(" " +b);
             int resultado =a+b;
             a=b;
