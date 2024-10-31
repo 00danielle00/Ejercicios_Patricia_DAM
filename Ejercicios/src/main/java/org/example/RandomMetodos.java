@@ -7,7 +7,7 @@ public class RandomMetodos {
         Random aleatorio =new Random();
         int numero= aleatorio.nextInt();
 
-        numero = aleatorio.nextInt(6) + 1 ;//empieza desde 1;
+        numero = aleatorio.nextInt(6) + 1 ;//empieza desde 1 hasta 5, genera un numero entero;
         System.out.println(numero);
 
         double numero2 = aleatorio.nextDouble(); //desde 0 al 0.99
