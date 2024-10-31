@@ -9,9 +9,7 @@ public class Main {
 
 //        Programa1 Switch = new Programa1();
 //        Switch.Switch();
-
-        Repasotema2 ejercicio8 = new Repasotema2();
-        ejercicio8.ejercicio8();
+        
 
     }
 }
