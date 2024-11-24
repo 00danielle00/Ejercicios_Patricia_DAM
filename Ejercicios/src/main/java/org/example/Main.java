@@ -11,7 +11,7 @@ public class Main {
 //        Switch.Switch();
 
         Repasotema2 ejercicio8 = new Repasotema2();
-        ejercicio8.ejercicio8();
+//        ejercicio8.ejercicio8();
     }
 }
 
